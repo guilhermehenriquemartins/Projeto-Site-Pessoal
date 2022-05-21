@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+img {
+    display: block;
+    margin: 30px auto;
+}
+
+body {
+    height: 10vh;
+    background: white url('imagens/plano\ de\ fundo.png') center top no-repeat scroll;
+    background-size: 100%;
+}
+
+#conteudo {
+    background-color: white;
+    max-width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+nav {
+    background-color: #0d3c89;
+    max-width: 59%;
+    margin: auto;
+    height: 60px;
+    border-radius: 5px;
+}
+
+a {
+    display: inline-block;
+    color: white;
+    padding: 21px 0px;
+    margin: 0px -4px 0px 0px;
+    text-decoration: none;
+    font: normal 1em Arial;
+    border-radius: 5px;
+    max-width: 20%;
+}
+
+a:hover {
+    background-color: #0a2a5d;
+}

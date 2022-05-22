@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Principal';
+    src: url('fonts/KGHAPPYSolid.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --titulo_principal: 'Principal';
+}
+
 img {
     display: block;
     margin: 30px auto;
@@ -20,7 +30,7 @@ body {
 
 nav {
     background-color: #0d3c89;
-    max-width: 59%;
+    max-width: 80%;
     margin: auto;
     height: 60px;
     border-radius: 5px;
@@ -29,14 +39,50 @@ nav {
 a {
     display: inline-block;
     color: white;
-    padding: 21px 0px;
+    padding: 21px 15px;
     margin: 0px -4px 0px 0px;
     text-decoration: none;
     font: normal 1em Arial;
     border-radius: 5px;
-    max-width: 20%;
 }
 
 a:hover {
     background-color: #0a2a5d;
+    color: yellow;
+    transition: 1s;
+}
+
+main {
+    background-color: white;
+    width: 78%;
+    margin: auto;
+    padding: 10px;
+}
+
+.Principal {
+    font-family: var(--titulo_principal);
+    background-image: linear-gradient(to right, #0D3C89, transparent);
+    color: white;
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+    font: normal 1em Arial;
+    line-height: 25px;
+}
+
+footer > p {
+    text-align: center;
+    font: italic normal 1em Arial;
+    color: #103E8A;
+}
+
+#frase {
+    margin-top: -10px;
+    padding-bottom: 20px;
+    color: #103E8A;
 }
